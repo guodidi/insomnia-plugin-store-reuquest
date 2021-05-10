@@ -1,0 +1,25 @@
+{
+  "name": "insomnia-plugin-store-reuquest",
+  "version": "0.1.1",
+  "description": "Plugin for Insomnia to store current request data at remote machine",
+  "main": "main.js",
+  "author": "gyh1993",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guodidi/insomnia-plugin-store-reuquest.git"
+  },
+  "keywords": [
+    "insomnia",
+    "plugin",
+    "store",
+    "request"
+  ],
+  "insomnia": {
+    "name": "storeRequest",
+    "description": "Plugin for Insomnia to store current request data at remote machine"
+  },
+  "dependencies": {
+    "insomnia-send-request": "2.2.35"
+  }
+}
